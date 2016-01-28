@@ -6,7 +6,7 @@
 
 
 var symbols = [
-{ name: "^GDAXI", description:"DAX", exchange:"XETRA", type:"index" },
+/*{ name: "^GDAXI", description:"DAX", exchange:"XETRA", type:"index" },
 { name: "^NSEI", description:"CNX NIFTY", exchange:"NSE", type:"index" },
 { name: "A", description:"Agilent Technologies Inc.", exchange:"NYSE", type:"stock" },
 { name: "AA", description:"Alcoa Inc.", exchange:"NYSE", type:"stock" },
@@ -157,7 +157,7 @@ var symbols = [
 { name: "WFC", description:"Wells Fargo & Company", exchange:"NYSE", type:"stock" },
 { name: "WLT", description:"Walter Energy, Inc.", exchange:"NYSE", type:"stock" },
 { name: "XOM", description:"Exxon Mobil Corporation", exchange:"NYSE", type:"stock" },
-
+*/
 {name:"AFG.OL",description:"AF Group",exchange:"OB",type:"stock"},
 {name:"AGA.OL",description:"Agasti Holding",exchange:"OB",type:"stock"},
 {name:"AKA.OL ",description:"Akastor",exchange:"OB",type:"stock"},
