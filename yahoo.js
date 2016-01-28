@@ -154,12 +154,8 @@ RequestProcessor = function(action, query, response) {
 			supports_time: true,
 			exchanges: [
 				{value: "", name: "All Exchanges", desc: ""},
-				{value: "XETRA", name: "XETRA", desc: "XETRA"},
-				{value: "NSE", name: "NSE", desc: "NSE"},
-				{value: "NasdaqNM", name: "NasdaqNM", desc: "NasdaqNM"},
-				{value: "NYSE", name: "NYSE", desc: "NYSE"},
-				{value: "CDNX", name: "CDNX", desc: "CDNX"},
-				{value: "Stuttgart", name: "Stuttgart", desc: "Stuttgart"},
+				{value: "OB", name: "OB", desc: "Oslo Børs"}
+				
 			],
 			symbolsTypes: [
 				{name: "All types", value: ""},
@@ -181,13 +177,14 @@ RequestProcessor = function(action, query, response) {
 		var day = 60 * 60 * 24;
 
 		var marks = {
-			id: [0, 1, 2, 3, 4, 5],
+/*			id: [0, 1, 2, 3, 4, 5],
 			time: [now, now - day * 4, now - day * 7, now - day * 7, now - day * 15, now - day * 30],
 			color: ["red", "blue", "green", "red", "blue", "green"],
 			text: ["Today", "4 days back", "7 days back + Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "7 days back once again", "15 days back", "30 days back"],
 			label: ["A", "B", "CORE", "D", "EURO", "F"],
 			labelFontColor: ["white", "white", "red", "#FFFFFF", "white", "#000"],
 			minSize: [14, 28, 7, 40, 7, 14]
+			*/
 		};
 
 		response.writeHead(200, defaultResponseHeader);
@@ -208,11 +205,11 @@ RequestProcessor = function(action, query, response) {
 		var day = 60 * 60 * 24;
 		
 		var marks = [
-		{id: "tsm1", time: now - day * 0, color: "red", label: "A", tooltip: ""},
+		/*{id: "tsm1", time: now - day * 0, color: "red", label: "A", tooltip: ""},
 		{id: "tsm2", time: now - day * 4, color: "blue", label: "D", tooltip: ["Dividends: $0.56", "Date: " + new Date((now - day * 4) * 1000).toDateString()]},
 		{id: "tsm3", time: now - day * 7, color: "green", label: "D", tooltip: ["Dividends: $3.46", "Date: " + new Date((now - day * 7) * 1000).toDateString()]},
 		{id: "tsm4", time: now - day * 15, color: "#999999", label: "E", tooltip: ["Earnings: $3.44", "Estimate: $3.60"]},		
-		{id: "tsm7", time: now - day * 30, color: "red", label: "E", tooltip: ["Earnings: $5.40", "Estimate: $5.00"]},
+		{id: "tsm7", time: now - day * 30, color: "red", label: "E", tooltip: ["Earnings: $5.40", "Estimate: $5.00"]},*/
 		];
 
 		response.writeHead(200, defaultResponseHeader);
