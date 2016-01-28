@@ -157,6 +157,9 @@ var symbols = [
 { name: "WFC", description:"Wells Fargo & Company", exchange:"NYSE", type:"stock" },
 { name: "WLT", description:"Walter Energy, Inc.", exchange:"NYSE", type:"stock" },
 { name: "XOM", description:"Exxon Mobil Corporation", exchange:"NYSE", type:"stock" },
+
+{ name: "FUNCOM.OL", description:"Funcom", exchange:"OB", type:"stock" },
+
 ];
 
 
